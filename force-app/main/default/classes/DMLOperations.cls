@@ -268,10 +268,7 @@ public with sharing class DMLOperations {
         List<Case> casestoinsert = new List<Case>();
         for(Integer i = 0; i < numOfCases; i++ )
         {
-            
-            
-            casestoinsert.add(New case(AccountId = accountId));
-            
+            casestoinsert.add(New case(AccountId = accountId));  
         }
         insert casestoinsert;
         // Delete the Cases
