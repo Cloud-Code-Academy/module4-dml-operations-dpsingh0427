@@ -8,3 +8,8 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+
+Account acc = new Account(Name = 'Dalpreet', Type = 'ABC' );
+insert acc;
+system.debug(acc);
